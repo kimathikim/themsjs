@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>themjs.thrift Accessories Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-mv61ZaRlaZTOfTtoTfT9qIRia+d8sLnsjF2yfvrI2JvF8ZiW/PLI1bZFN90gMv6STGFWWUyC6Nsy+6GV7/f5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      /* global styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      nav {
+        background-color: #f2f2f2;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+      nav a {
+        color: #333;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #ddd;
+      }
+      .container {
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 2em;
+        margin: 0;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 1.1em;
+        line-height: 1.4;
+      }
+      /* page-specific styles */
+      #home {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+      }
+      #home video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+      }
+      #home .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1;
+      }
+      #home h1 {
+        font-size: 4em;
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #fff;
+        text-shadow: 2px 2px #333;
+      }
+      #home p {
+        font-size: 1.5em;
+        color: #fff;
+        text-shadow: 2px 2px #333;
+      }
+      /*page-specific styles*/
+      #contact-form {
+          max-width: 600px;
+          margin: 0 auto;
+      }
+      #contact-form label {
+         display: block;
+         margin-bottom: 5px;
+      }
+      #contact-form input,
+      #contact-form textarea {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1.1cm;
+        resize: vertical;
+      }
+      #contact-form input:focus,
+      #contact-form textarea:focus {
+         outline: none;
+         border-color: #333;
+      }
+      #contact-form button {
+         background-color: #333;
+         color: #fff;
+         padding: 10px 20px;
+         border: none;
+         border-radius: 5px;
+         font-size: 1.1cm;
+         cursor: pointer;
+      }
+      #contact-form button:hover {
+        background-color: #222 ;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>themjs.Accessories Store</h1>
+    </header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div id="home">
+      <video src="thems.thrift.mp4" autoplay loop muted></video>
+      <div class="content">
+        <h1>Welcome to themjs.thrift Accessories Store</h1>
+        <p>Fashion on a Budget.</p>
+        <p>We offer a wide range of accessories for all your needs.</p>
+        <p>Cute and affordable thrifts.</p>
+        <p>All about fashion and dressing up.</p>
+        <p>Deliveries on Wednesdays and Saturdays.</p>
+        <p>No refunds but reservations by money.</p>
+      </div>
+    </div>
+    <div id="about" class="container">
+      <h2>About Us</h2>
+      <p>At themjs.thrift Accessories Store, am passionate about providing my customers with the latest and trendiest accessories to complement any outfit. Whether you're looking for jewelry, bags, scarves, skirts,or hats, I've got you covered!</p>
+      <p>My team of experienced buyers carefully selects each product in the store to ensure that it meets our high standards of quality and style. I believe that accessories are a key element in expressing your individuality and enhancing your personal style, and I strive to offer a wide range of options to suit any taste or occasion.</p>
+      <p>When you shop at themjs.thrift Accessories Store, you can trust that you're getting the best quality products at the most affordable prices. I pride myself on my commitment to customer satisfaction, and I go above and beyond to ensure that every shopping experience is a positive one. From my easy-to-use website to our lightning-fast shipping and attentive customer service team, we're here to make your accessory shopping experience as smooth and enjoyable as possible.</p>
+      <p>So whether you're looking for a statement piece to elevate your everyday style, or something special for a big event, Ive got you covered. Shop themjs.thrift Accessories Store today and discover the perfect accessory to complete your look!</p>
+      <p>At my online store, I make it easy for you to find the perfect accessory from the comfort of your own home. My mobile-friendly website is designed to be user-friendly and intuitive, so you can quickly browse through our collection and find exactly what you're looking for. With just a few clicks, you can place your order and get ready to elevate your style!</p>
+      <p>Once your order is confirmed, I'll get to work packing it up and getting it ready for delivery. We're proud to partner with Pick Up Mtaani to provide you with a fast and reliable delivery option.</p>
+      <h2>Pick up Mtaani Deliveries</h2>
+      <p>Delivery from CBD to your area is 120bob.</p>
+      <p>Delivery from CBD to Mashinani that is outside Nairobi is 240.</p>
+      <p>Delivery from my mtaa to CBD is 120bob.</p>
+      <p>Delivery from my mtaa to your mtaa is 210.</p>
+      <p>Also for Delivery outside Nairobi I can use any sacco that is convenient.</p>
+      <p>Also you can opt to pick up your item on wednesday or saturday in CBD.</p>
+      <p>I really hope this are the best delivery options.</p>
+      <p>So why wait? Start shopping today and discover the perfect accessory to complement your style. With our easy online shopping and convenient delivery options, it's never been easier to elevate your look!</p>
+      <p>If you have any questions or feedback, please don't hesitate to contact us – we would love to hear from you!</p>
+  </div>
+  <div id="products" class="container">
+  <h2>Our Products</h2>
+  <ul>
+    <li>
+      <h3>White leather ruched baguette with chain</h3>
+      <img src="images/White leather ruched baguette with chain.jpg"></img>
+      <p class="price">600/=</p>
+      <button>Add to Cart</button>
+    </li>
+    <li>
+      <h3>Cow print fur bag</h3>
+      <img src="images/Cow print fur bag.jpg"></img>
+      <p class="price">450/=</p>
+      <button>Add to Cart</button>
+    </li>
+    <li>
+      <h3>Cute vintage small bag</h3>
+      <img src="images/Cute vintage small bag.jpg"></img>
+      <p class="price">550/=</p>
+      <button>Add to Cart</button>
+    </li>
+    <li>
+      <h3>White quality classic leather bag</h3>
+      <img src="images/White quality classic leather bag.jpg"></img>
+      <p class="price">700/=</p>
+      <button>Add to Cart</button>
+    </li>
+    <li>
+      <h3>White with brown leather bag</h3>
+      <img src="images/White with brown leather bag.jpg"></img>
+      <p class="price">650/=</p>
+      <button>Add to Cart</button>
+    </li>
+  </ul>
+</div>
+ <div id="contact" class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form" action="mailto:your-email@example.com" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        <label for="message">Message</label>
+        <input type="textarea" id="message" name="message" placeholder="message" required>
+      </form>
+      <div class="contact-links">
+      <h2>My official pages</h2>
+      <p>Feel free to reach out to us on WhatsApp or Instagram:</p>
+  <ul>
+    <li><a href="https://chat.whatsapp.com/FC0tWaIfL7H3eQsrR3chhm" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+    <li><a href="https://instagram.com/themjs.thrift?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+  </ul>
+</div>
+
+  </div>
+
+    <!-- rest of the code -->
+  </body>
+</html>
